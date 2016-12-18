@@ -1,0 +1,628 @@
+*{box-sizing: border-box;}
+*button:focus {
+    outline: 0 !important;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+body {
+	margin: 0 auto;
+}
+/*Section one - Fresh Life*/
+.fresh-life {
+	background: url(https://static.pexels.com/photos/8363/pexels-photo.jpg) center no-repeat;
+	background-size: 100% 100%;
+	margin-top: -20px;
+	padding: 20px 20px;
+	max-height: 900px;
+	min-height: 200px;
+	max-width: 100%;
+
+}
+nav h2 {
+	font-family: 'Pacifico';
+	margin-top: 10px;
+	margin-left: 50px;
+}
+nav ul li {
+	display: inline-block;
+	height: 50px;
+	width: 50px
+	padding: 0;
+	line-height: 50px;
+}
+nav ul { 
+	position: absolute;
+	top: 0;
+	right: 50px;
+	word-spacing: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Roboto';
+	color: #000000;
+	font-weight: bold;
+}
+nav ul li:first-child {
+	border-top: 3px solid #E26700;
+	line-height: 25px;
+}
+nav ul li a:hover {
+	color:#595959;
+}
+.fresh-life-text {
+	max-width: 20%;
+	margin-top: 120px;
+	margin-left: 50px;
+	margin-bottom: 200px;
+}
+.fresh-life-text h1 {
+	font-family:'Roboto';
+	font-size: 43px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+.fresh-life-text p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 25px;
+}
+.get-free-now {
+	background-color: #E26700;
+	height: 40px;
+	border: none;
+	color: #e8e8e8;
+	line-height: 20px;
+	padding: 0 20px;
+	padding-top: 3px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #4f4e4e;
+	display: block;
+	transition:.3s;
+}
+.get-free-now:focus {
+	outline: 0;
+}
+.get-free-now:hover {
+	transform: scale(1.05);
+}
+.get-free-now:active {
+	transform: scale(1.10);
+}
+.fresh-life img {
+	display: block;
+	margin: auto;
+}
+/*Section 2 - About Us*/
+.about {
+	background: url(https://static.pexels.com/photos/30258/pexels-photo.jpg) center no-repeat;
+	background-size: 100% 100%;
+	max-height: 900px;
+	min-height: 100px;
+	margin-top: -5px;
+	padding: 20px 20px;
+	height: 750px;
+}
+.about-text {
+	max-width: 20%;
+	display: block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 70px;
+}
+.about-text h1 {
+	font-family:'Roboto';
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+.about-text p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	text-align: left;
+}
+/*Section 3 - Services*/
+.services {
+	background: url(https://static.pexels.com/photos/73640/pexels-photo-73640.jpeg) center no-repeat;
+	background-size: 100% 100%;
+	max-height: 900px;
+	min-height: 100px;
+	margin-top: -5px;
+	padding: 20px 20px;
+	height: 750px;
+	position: relative;
+}
+.services h1 {
+	font-family: 'Roboto';
+	font-size: 58px;
+	font-weight: 900;
+	position: absolute;
+	left: 500px;
+	right: 500px;
+	color: #efecea;
+}
+/* General for buttons */
+.buttons {
+	margin-top: 250px;
+	margin-left: 30px; 
+}
+.btn {
+	background-color: #ffb028;
+	height: 70px;
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 2px 2px 4px #4f4e4e;
+	max-width: 40vw;
+}
+.btn p {
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+/* Vertical line */
+.vr {
+	height: 100%
+	width: 1px;
+	border-left: 1px solid grey;
+}
+.btn img {
+	align-self: center;
+}
+.shopping, .product, .delivery{
+	margin-bottom: 20px;
+}
+/*Shopping Button*/
+.shopping p {
+	margin-left: 48px;
+	margin-top: 25px;
+}
+.shopping .vr {
+	margin-left: 41px;
+}
+.shopping img {
+	padding-right: 25px;
+	margin-left: 25px;
+}
+/*Quality product button*/
+.product p {
+	margin-left: 48px;
+	margin-top: 25px;
+}
+.product .vr {
+	margin-left: 47px;
+}
+.product img {
+	padding-right: 23px;
+	margin-left: 25px;
+}
+/*Delivery button*/
+.delivery {
+	text-align: center;
+}
+.delivery p {
+	margin-left: 3px;
+}
+.delivery .vr {
+	margin-left: 10px;
+} 
+.delivery img {
+	padding-right: 25px;
+	margin-left: 25px;
+}
+/*Well organized button*/
+.well-organized p {
+	margin-left: 48px;
+	margin-top: 25px;
+}
+.well-organized .vr {
+	margin-left: 50px;
+}
+.well-organized img {
+	padding-right: 25px;
+	margin-left: 25px;
+}
+/*Section 4 - Gallery*/
+
+.gallery {
+	background-color: #ffcc00;
+	margin-top: -40px;
+	padding-bottom: 40px;
+}
+.gallery h1 {
+	font-family: 'Raleway';
+	font-size: 48px;
+	font-weight: 900;
+	padding-top: 40px;
+	text-align: center;
+}
+.gallery p {
+	font-family: 'Roboto';
+	margin: 30px 350px 30px 350px;
+	text-align: center;
+}
+/*Photos*/
+img-2 {background-image:url(https://static.pexels.com/photos/111112/pexels-photo-111112.jpeg);}
+img-3 {background-image:url(https://static.pexels.com/photos/52517/apple-tree-branch-apple-fruit-52517.jpeg);}
+img-4 {background-image:url(https://static.pexels.com/photos/57712/banana-shrub-banana-food-fruit-57712.jpeg);}
+img-5 {background-image:url(https://static.pexels.com/photos/36187/pexels-photo.jpg);}
+
+.col-1 {width: 8.334%}
+.col-2 {width: 16.667%}
+.col-3 {width: 25%}
+.col-4 {width: 33.334%}
+.col-5 {width: 41.667%}
+.col-6 {width: 50%}
+.col-7 {width: 58.334%}
+.col-8 {width: 66.667%}
+.col-9 {width: 75%}
+.col-10 {width: 83.334%}
+.col-11 {width: 91.667%}
+.col-12 {width: 100%}
+
+.photos img {
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 2px #383838;
+}
+.col-4 > img:nth-of-type(2) {
+	max-height: 188px;
+	margin-top: 20px;
+} 
+.col-6 > img {
+	max-height: 250px;
+}
+
+.photos {
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px;
+}
+.row {
+	overflow: hidden;
+	margin: 10px -5px;
+	max-height: 500px;
+}
+.col {
+	padding: 0 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+/*Gellery View More Button*/
+.view-more {
+	background-color: #5159a3;
+	height: 40px;
+	border: none;
+	color: #e8e8e8;
+	line-height: 20px;
+	padding: 0 20px;
+	padding-top: 3px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #4f4e4e;
+	display: block;
+	margin: 0 auto;
+	transition: .3s;
+	margin-top: 40px;
+}
+.view-more:focus {
+	outline: 0;
+
+}
+.view-more:hover {
+	transform: scale(1.05);
+}
+.view-more:active {
+	transform: scale(1.10);
+}
+/*@media(max-width:600px) {
+	.photos img {
+		display: inline-block;
+	}
+}*/
+
+/*Section 5 - subscribe*/
+.subscribe {
+	background: url(https://static.pexels.com/photos/27966/pexels-photo.jpg) center no-repeat;
+	background-size: 100% 100% cover;
+	margin-top: -20px;
+}
+.subscribe-text {
+	max-width: 50%;
+	padding: 100px 50px 100px 50px;
+	
+}
+.subscribe-text h2 {
+	font-family: 'Roboto';
+	font-size: 42px;
+	font-weight: 900;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.subscribe-text p {
+	font-family: 'Roboto';
+	font-weight: 700;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.subscribe-text fieldset {
+	border: none;
+	margin-left: -10px;
+
+}
+.subscribe-text fieldset input {
+	width: 400px;
+	padding: 10px;
+	border: .5px solid #282828;
+	
+}
+.subscribe-text fieldset input:focus {
+	outline: 1px solid #3d3d3d;
+	box-shadow: 2px 2px 3px #3d3d3d;
+}
+/*Subscribe Button*/
+.subscribe-btn {
+	background-color: #34AA3F;
+	height: 37px;
+	border: none;
+	color: #e8e8e8;
+	line-height: 20px;
+	padding: 5px 20px;
+	padding-top: 7px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #2b2b2b;
+	display: inline-block;
+	margin-left: 20px;
+	transition: 0.3s
+
+}
+.subscribe-btn:focus {
+	outline: 0;
+}
+.subscribe-btn:hover {
+	transform: scale(1.05);
+}
+.subscribe-btn:active {
+	transform: scale(1.10);
+}
+
+/*Section 6 - Blog*/
+.blog {
+	background-color: #4b2782;
+	margin-top: -40px;
+	padding-bottom: 60px;
+	
+}
+.blog > h1 {
+	text-align: center;
+	font-family: 'Raleway';
+	font-size: 48px;
+	font-weight: 900;
+	padding-top: 40px;
+	color: white;
+}
+.blog > p {
+	font-family: 'Roboto';
+	margin: 30px 350px 30px 350px;
+	text-align: center;
+	color: white;
+	margin-top: -10px;
+}
+/*Blog Icons Flex*/
+.element {
+	height: 260px;
+	margin: 20px 40px 40px 40px;
+	box-shadow: 2px 2px 4px #2b2b2b;
+	background-position: center;
+	background-size: cover;
+}
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 100px 20px 100px;
+	
+}
+.flex-1 {
+	flex: 1;
+}
+
+.blog-icon-1 {
+	background-image: url(http://lifecdn.dailyburn.com/life/wp-content/uploads/2015/04/Pear-Smoothie_PS_2B.jpg);
+	
+}
+.blog-icon-2 {
+	background-image: url(http://footage.framepool.com/shotimg/qf/453994583-highlights1615-fruit-and-vegetable-garden-orange-tree-harvesting-fruit.jpg);
+	
+	
+}
+.blog-icon-3 {
+	background-image: url(https://static.pexels.com/photos/40754/raspberry-berry-fruit-red-40754.jpeg);
+	
+}
+[class^="blog-icon-"] {
+	cursor: pointer;
+	transition: 0.3s;
+}
+[class^="blog-icon-"]:hover {
+	transform: scale(1.05);
+}
+/*Blog Icon Text*/
+.blog-date {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 18px;
+}
+.blog-date span {
+	font-size: 22px;
+}
+.icon-text {
+	font-family: 'Raleway';
+	margin-top: 105px;
+	margin-left: 20px;
+}
+.icon-text p {
+	color: white;
+	font-weight: bold;
+}
+/*View more blog button*/
+.view-more-blog {
+	background-color: #b71d1d;
+	height: 40px;
+	border: none;
+	color: #e8e8e8;
+	line-height: 20px;
+	padding: 0 20px;
+	padding-top: 3px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #4f4e4e;
+	display: block;
+	margin: 0 auto;
+	transition: .3s;
+}
+.view-more-blog:focus {
+	outline: 0;
+
+}
+.view-more-blog:hover {
+	transform: scale(1.05);
+}
+.view-more-blog:active {
+	transform: scale(1.10);
+}
+
+/*Media - Blog*/
+@media(max-width:500px) {
+	.element {
+		margin: 10px auto;
+	}
+	.flex-row {
+		flex-direction: column;
+	}
+}
+/*Contact*/
+.contact {
+	background: url(https://static.pexels.com/photos/7976/pexels-photo.jpg) center no-repeat;
+	background-size: 100% 100%;
+	margin-top: -40px;
+	max-height: 1000px;
+	height: 900px;
+}
+.contact > h1 {
+	text-align: center;
+	font-family: 'Raleway';
+	font-size: 48px;
+	font-weight: 900;
+	padding-top: 150px;
+	color: #000000;
+}
+.contact > p {
+	font-family: 'Roboto';
+	margin: 30px 350px 30px 350px;
+	text-align: center;
+	color: #000000;
+	margin-top: -10px;
+}
+/*Text fields*/
+.contact-form fieldset {
+	border: none;
+	float: left;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+.contact-form fieldset input {
+	display: block;
+	margin-bottom: 15px;
+}
+.contact-form fieldset legend {
+	background-color: #34c6c9;
+	border-left: 5px solid #00035e;
+	padding: 10px 241px 10px 10px;
+	color: white;
+	font-family: 'Raleway';
+	margin-bottom: 10px;
+}
+.contact-form fieldset input {
+	background-color: rgba(52, 198, 201, 0.5);
+	padding: 10px 200px 10px 10px;
+	font-family: 'Raleway';
+	color: white;
+	border: none;
+}
+.contact-form fieldset input:nth-child(4) {
+	height: 100px;
+}
+
+.contact-form *::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+.contact-form fieldset input:focus {
+	outline: 0;
+}
+.address {
+	margin-top: -300px;
+	float: right;
+	margin-right: 340px;
+	font-family: 'Raleway';
+}
+/*Footer*/
+footer {
+	background-color: #111111;
+	margin-top: -20px;
+	padding: 10px;
+}
+footer p, small {
+	display: inline-block;
+	color: #cccccc;
+}
+footer p:first-child {
+	margin-left: 90px;
+	font-family: 'Raleway';
+	font-size: 12px;
+}
+footer p:nth-child(2) {
+	font-family: 'Pacifico';
+	text-align: center;
+	margin: 10px 350px 10px 350px;
+	font-size: 18px;
+}
+footer small {
+	margin-right: 40px;
+}
+footer small span {
+	color: #a51515;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
